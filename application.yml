@@ -8,6 +8,11 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect
+  rabbitmq:
+      host: duckbill.rmq.cloudamqp.com
+      username: lshnmkvr
+      virtual-host: lshnmkvr
+      password: 5xns2ZvJ7KGCLM_VFj9cbA7hdsBEtTj9
 
 eureka:
   client:
